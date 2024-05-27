@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
+
+        <!-- Sets the background color of the splash screen to a white color -->
+        <item name="windowSplashScreenBackground">#FFFF</item>
+        <!-- Sets the animated icon displayed during the splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <!-- Specifies the theme to apply after the splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.TheNewsApp</item>
+        
+    </style> // this come from splash API
+</resources>
